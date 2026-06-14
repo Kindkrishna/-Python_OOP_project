@@ -1,11 +1,23 @@
-# (A) : Create a backend bill system for building in a coffee shop:
-'''
-    1. Take order from user and calculate their price
-    2. Keep updateing the total price for all product they ordered
-    3. Generate bill
-    4. Should work for multiple customers simultaneously
-        - Alex = Coffee + Cookie
-        - Bob  = Cookie
-        Alex made a second order for coffee --> Update alex bill with recent coffee
-    5. Try solving this problem without OOPS (simple def functions) and with OOPS
-'''
+☕ Coffee Shop Billing System
+
+A simple backend billing system for a coffee shop, built in Python.
+
+The project demonstrates the same problem solved in two ways:
+
+
+Without OOP – using plain functions and dictionaries
+With OOP – using classes and objects
+
+
+It supports multiple customers ordering simultaneously, tracks a running total per customer, allows customers to add items to an existing order, and generates a final bill.
+
+
+📋 Features
+
+
+Take orders from multiple customers
+Maintain a live, running total for each customer's bill
+Add new items to an existing customer's order (bill gets updated, not replaced)
+Generate a final itemized bill per customer
+Simple product price list (easy to extend)
+Two implementations for learning purposes: procedural vs. OOP
