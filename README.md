@@ -1,3 +1,4 @@
+images/banner1.svg
 ☕ Coffee Shop Billing System
 
 A simple backend billing system for a coffee shop, built in Python.
